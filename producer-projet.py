@@ -7,13 +7,13 @@ import time
 # Étape 1 : Configuration
 # ---------------------------------------------------------------------------
 # TODO : Remplacez par votre clé personnelle d'API OpenWeather
-API_KEY = 'VOTRE_CLE_API'
+API_KEY = '6b2e98d8f434f0485bbbb7216eeaf3c3'
 
 # TODO : Ajouter deux autres villes de votre choix pour atteindre 5 villes
-CITIES = ['Paris', 'London', 'Tokyo']  # Exemple : Ajoutez ici vos villes
+CITIES = ['Paris', 'London', 'Tokyo','Madrid','Singapour']  # Exemple : Ajoutez ici vos villes
 
 # TODO : Remplacez par le nom du topic Kafka utilisé dans votre projet
-KAFKA_TOPIC = 'tp-meteo'
+KAFKA_TOPIC = 'topic-weather'
 
 # Adresse du serveur Kafka
 KAFKA_SERVER = 'localhost:9092'
